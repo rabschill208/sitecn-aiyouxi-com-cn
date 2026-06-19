@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rabschill208.github.io/sitecn-aiyouxi-com-cn/sitemap.xml
