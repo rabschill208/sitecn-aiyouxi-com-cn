@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>威廉希尔 · 页面说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f7f3ed;
+      font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+      color: #3d3a36;
+      line-height: 1.7;
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      background: #fcfaf7;
+      padding: 2.8rem 2rem 3rem;
+      border-radius: 28px;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.04);
+    }
+
+    @media (min-width: 600px) {
+      .page {
+        padding: 3.6rem 3.8rem 4rem;
+      }
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.6rem;
+      color: #2b2a27;
+      border-left: 6px solid #b5977b;
+      padding-left: 1.2rem;
+    }
+
+    .subhead {
+      font-size: 1rem;
+      color: #7c736b;
+      margin-bottom: 2.4rem;
+      font-style: italic;
+      padding-left: 0.6rem;
+    }
+
+    .visual-card {
+      background: #eae3d9;
+      border-radius: 20px;
+      padding: 2.2rem 2rem 2rem;
+      margin-bottom: 2.6rem;
+      text-align: center;
+    }
+
+    .visual-card .emoji-symbol {
+      display: block;
+      font-size: 3.6rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .visual-card p {
+      font-size: 1.05rem;
+      max-width: 520px;
+      margin: 0.2rem auto 0;
+      color: #3f3b36;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      margin: 2.6rem 0 2.4rem;
+    }
+
+    @media (min-width: 540px) {
+      .card-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .info-card {
+      background: #f3efe9;
+      border-radius: 20px;
+      padding: 1.5rem 1.4rem 1.8rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .info-card h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #3f352c;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    .info-card p {
+      font-size: 0.95rem;
+      color: #59534c;
+    }
+
+    .info-card .tag {
+      display: inline-block;
+      background: #dacfc4;
+      color: #2b2824;
+      font-size: 0.7rem;
+      padding: 0.1rem 0.7rem;
+      border-radius: 30px;
+      margin-top: 0.5rem;
+    }
+
+    .quote-box {
+      background: #f1ebe3;
+      border-left: 6px solid #b89b81;
+      padding: 1.2rem 1.4rem;
+      margin: 2.2rem 0;
+      border-radius: 0 12px 12px 0;
+      font-size: 0.95rem;
+      color: #4f4943;
+      position: relative;
+    }
+
+    .quote-box::before {
+      content: "⬩";
+      position: absolute;
+      left: -1.2rem;
+      top: 1.2rem;
+      color: #8a7b6d;
+      font-size: 1.6rem;
+    }
+
+    .faq-mini {
+      margin: 2.2rem 0 1.8rem;
+      border-top: 1px dashed #d5cdc2;
+      padding-top: 1.8rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1rem;
+    }
+
+    .faq-item strong {
+      display: block;
+      font-weight: 500;
+      color: #3e352e;
+      margin-bottom: 0.25rem;
+    }
+
+    .faq-item p {
+      font-size: 0.92rem;
+      color: #5d554e;
+      margin-left: 0.2rem;
+    }
+
+    .link-sentence {
+      background: #ede7df;
+      padding: 1.2rem 1.6rem;
+      border-radius: 40px;
+      text-align: center;
+      margin: 2.2rem 0 0.2rem;
+      font-size: 1rem;
+    }
+
+    .link-sentence a {
+      color: #6f5b48;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+      font-weight: 500;
+    }
+
+    .link-sentence a:hover {
+      color: #4a3a2c;
+      text-decoration-thickness: 2px;
+    }
+
+    .footnote {
+      text-align: center;
+      margin-top: 2.4rem;
+      font-size: 0.8rem;
+      color: #9c938b;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd5cb;
+      margin: 2rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <h1>关于稳定入口与说明</h1>
+  <div class="subhead">一份平实的介绍页 · 信息卡片式</div>
+
+  <!-- 主视觉卡片 -->
+  <div class="visual-card">
+    <span class="emoji-symbol">♟</span>
+    <p>一个持续被提及的名字，出现在许多讨论与页面中。<br>这里尝试以克制的视角，整理关于它的基本信息。</p>
+  </div>
+
+  <!-- 用途卡片（两栏） -->
+  <div class="card-grid">
+    <div class="info-card">
+      <h3>日常浏览场景</h3>
+      <p>当你需要打开一个长期使用的页面，或只是想快速定位到某个熟悉的站点，一个稳定的入口会比临时搜索更省力。</p>
+      <span class="tag">入口锚点</span>
+    </div>
+    <div class="info-card">
+      <h3>信息对照</h3>
+      <p>有时候用户需要同时打开多个页面做对比，或确认某条内容是否来自同一个服务。这时一个可靠的链接比截图更实在。</p>
+      <span class="tag">对照参考</span>
+    </div>
+  </div>
+
+  <!-- 适合人群 + 自然引用 -->
+  <div style="margin: 0.2rem 0 0.8rem;">
+    <p style="font-size:0.98rem; color:#4f4943;"><strong>适合这样的人群：</strong> 偶尔需要回顾某个页面结构的人、希望减少书签杂乱度的使用者、以及想直接看到页面当前是否可用的用户。也适合那些只是需要一条干净链接的人。</p>
+  </div>
+
+  <div class="quote-box">
+    从经验来看，一个稳定的入口本身也是一种说明。页面是否打开、内容是否更新，往往比任何描述都直接。<br>
+    因此下面这个句子中出现的链接，只作为指向，不代表任何承诺。
+  </div>
+
+  <!-- 自然链接段落（嵌入 a 标签） -->
+  <div class="link-sentence">
+    如果你正在寻找与这个主题相关的原始页面，可以直接通过 <a href="https://m-main-williamhill.com">威廉希尔</a> 这个地址访问。它保持着你上次见过的那种结构，没有多余的跳转。
+  </div>
+
+  <!-- FAQ 摘要 -->
+  <div class="faq-mini">
+    <div class="faq-item">
+      <strong>这个页面和链接是什么关系？</strong>
+      <p>这是一个独立的介绍说明页，其中的链接指向 https://m-main-williamhill.com，用于提供直接的访问路径。本页不收集信息，也不代表运营方。</p>
+    </div>
+    <div class="faq-item">
+      <strong>为什么强调“稳定入口”？</strong>
+      <p>因为在浏览过程中，有时我们更想减少选择步骤——直接打开一个已经知道的地址，而不是每次都重新搜索。这个页面只是把那个地址放在了一句自然的话里。</p>
+    </div>
+    <div class="faq-item">
+      <strong>页面内容会变化吗？</strong>
+      <p>这只是一个静态说明页，结构固定。但链接指向的站点可能会有自己的更新，我们无法控制。建议以实际打开的内容为准。</p>
+    </div>
+  </div>
+
+  <hr>
+  <div class="footnote">
+    信息卡片式说明 · 基于理解而非推广
+  </div>
+
+</div>
+</body>
+</html>
